@@ -1,0 +1,239 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header img {
+    width: 25%;
+
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ABABAB;
+    margin: 10px;
+
+}
+
+nav ul li a:hover {
+    color: #00b39b;
+}
+
+.apropos {
+    display: flex;
+    margin: 0 13%;
+
+
+
+}
+
+#tittle {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mission1 .box1 {
+    background-color: rgb(24, 204, 177);
+    height: 350px;
+    width: 310px;
+    border-radius: 15px;
+    margin-left: 150px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.mission2 .box2 {
+    background: none;
+    position: relative;
+    right: 90px;
+    bottom: 550px;
+    background-color: rgb(61, 131, 223);
+    height: 350px;
+    width: 310px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 200px;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+.mission3 .box3 {
+    position: relative;
+    left: 800px;
+    bottom: 890px;
+    background-color: rgb(27, 39, 52);
+    height: 350px;
+    width: 310px;
+    border-radius: 15px;
+    margin-left: 120px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+.box3 button{
+    display: flex;
+    flex-direction: column;
+}
+
+.mission2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.mission2 .pays option {
+    font-size: 20px;
+}
+
+.mission2 .img {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.mission4 {
+    color: aqua;
+    flex-direction: row;
+    position: relative;
+    bottom: 2800px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 2000px;
+    margin-bottom: 2000px;
+    text-align: center;
+}
+
+.mission4 .img img {
+    justify-content: space-around;
+    align-content: center;
+    width: 150px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 5%;
+
+}
+
+#infos {
+    display: flex;
+    background-color: #D8F6F6;
+    margin-top: -358%;
+}
+
+#infos #gauche {
+    margin: 30px 15% 0 0;
+
+}
+
+#infos #gauche h1 {
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: -0%;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: -.3px;
+    color: #00b39b;
+}
+
+#infos #gauche p {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10x;
+    line-height: 28px;
+    color: #747474;
+    padding: 0 0 0 12%;
+    padding-bottom: 30px;
+}
+
+#infos #gauche img {
+    margin-left: 30px;
+    margin-bottom: -101%;
+}
+
+#infos #droite {
+    display: flex;
+}
+
+#infos #droite #tete {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+#tete div {
+    margin: 20%;
+    justify-content: space-around;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#tete div h2 {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    color: #00b39b;
+    line-height: 1;
+}
+
+#tete div p {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 28px;
+    color: #747474;
+}
+
+#life {
+    nav ul li a:hover {
+        color: #00b39b;
+        padding-top: 70px;
+        margin-right: 50px;
+    }
+
+    #life {
+        padding-top: 70px;
+        margin-right: 50px;
+    }
+
+    #life h1 {
+        text-align: center;
+        font-family: Roboto, Arial, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 10px;
+        letter-spacing: 2px;
+        color: #00b39b;
+    }
+
+    #mate {
+        text-align: center;
+        font-family: Roboto, Arial, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 28px;
+        color: #747474;
+        margin: 0 31%;
+    }
